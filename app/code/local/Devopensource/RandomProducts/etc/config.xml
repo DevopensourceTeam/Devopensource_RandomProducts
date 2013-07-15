@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devopensource>
+            <version>1.0.0</version>
+        </Devopensource>
+    </modules>
+    <global>
+        <blocks>
+            <randomproducts>
+                <class>Devopensource_RandomProducts_Block</class>
+            </randomproducts>
+        </blocks>
+        <helpers>
+            <randomproducts>
+                <class>Devopensource_RandomProducts_Helper</class>
+            </randomproducts>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <randomproducts>
+                    <file>randomproducts.xml</file>
+                </randomproducts>
+            </updates>
+        </layout>
+    </frontend>
+</config>

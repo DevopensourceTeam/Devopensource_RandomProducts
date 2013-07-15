@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_page name="inicio">
+        <reference name="content">
+            <block type="randomproducts/catalog_product_list_random" name="randomproducts" template="randomproducts/randomproducts.phtml" after="home.catalog.product.new" >
+                <action method="setProductsCount"><count>6</count></action>
+            </block>
+        </reference>
+    </cms_page>
+</layout>
